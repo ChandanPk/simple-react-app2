@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+/* Basic styles */
+body {
+  font-family: 'Nunito', sans-serif;
+  background: rgb(237, 241, 241);
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  color: #333;
+  margin-left: 16px;
+}
+
+.container{
+  max-width: 1100px;
+  margin: 30px auto;
+}
+
+/* Nav styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 2rem;
+  margin: 8px 0;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0.8rem;
+}
+
+/* Home styles */
+.home {
+  margin: 70px auto 40px 5px;
+}
+
+.content {
+  line-height: 1.5;
+}
+
+/* Buuton styles */
+button {
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid rgb(180, 165, 168);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* Login page styles */
+
+
+input{
+  width: 92%;
+  display: block;
+  padding: 5px 3px;
+  margin: 5px 0;
+}
+
+
+
+#parent {
+  width: 300px;
+  height: 160px;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  padding: 2rem;
+  border: 1px solid rgb(189, 185, 185);
+  border-radius: 6px;
+}
+
+.btn {
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 5px 15px;
+  margin-top: 20px;
+  
+}
+
+.title {
+  text-align: center;
+  margin-top: 100px;
+}
